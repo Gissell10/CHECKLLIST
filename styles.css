@@ -1,0 +1,95 @@
+
+body {
+  background: linear-gradient(#e66465, #9198e5);
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+header
+{
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 3rem;
+  color: #9198e5;
+}
+
+form, header {
+  min-height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+form input, form button {
+  padding: 0.5rem;
+  font-size:  2rem;
+  border: none;
+  background-color: whitesmoke;
+  flex-wrap: nowrap;
+}
+#thingsToDo{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.addTask {
+  color: #e66465;
+  cursor: pointer;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.addTask:hover{
+  color: whitesmoke;
+  background-color: #e66465;
+}
+.todo-list {
+ min-width: 30%;
+ list-style-type: none;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo{
+  margin: 1rem;
+  background-color: whitesmoke;
+  font-size: 1.8rem;
+  color: #232931;
+  display: flex;
+  justify-content: space-between;
+}
+.new-ElementLi{
+  flex-grow: 2;
+  padding: 0rem, 0.5rem;
+}
+.check-box, .delete-button{
+  background-color: whitesmoke;
+  color: #e66465;
+  cursor: pointer
+}
+.fa-trash, .fa-check-square{
+  pointer-events: none;
+}
+.completed{
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.check-box:hover, .delete-button:hover {
+  color: whitesmoke;
+  background-color: #e66465;
+}
+label {
+  font-family: Arial, Helvetica, sans-serif, cursive;
+  padding: 2rem;
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+footer {
+  margin-top: 5%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: aliceblue;
+}
